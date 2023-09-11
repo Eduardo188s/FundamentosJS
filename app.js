@@ -1,4 +1,4 @@
 function hola(){
-    console.log("Hola desde Navegador");
-    alert("Hola desde Navegador");
+    console.log("Hola desde el Navegador");
+    alert("Hola desde el Navegador");
 }
