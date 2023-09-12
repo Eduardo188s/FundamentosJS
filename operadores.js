@@ -17,12 +17,12 @@
 
  // operadores booleanos
  // > < >= <= !== ===
- console-log(1 > 2);
- console-log(1 < 2);
- console-log(1 >= 2);
- console-log(1 <= 2);
- console-log(1 !== 2);
- console-log(1 === 2);
+ console.log(1 > 2);
+ console.log(1 < 2);
+ console.log(1 >= 2);
+ console.log(1 <= 2);
+ console.log(1 !== 2);
+ console.log(1 === 2);
 
 // Operadores logicos 
 // and &&
