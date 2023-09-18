@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lavender;
+        }
+
+        .container {
+            text-align: center;
+            background-color: grey;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        button {
+            background-color: lavenderblush;
+            color: black;
+            border: none;
+            padding: 10px 5px;
+            margin: 5px;
+            cursor: pointer;
+        
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<center><h1>Calculadora Paquin</h1></center>
+<body>
+    <div class="container">
+        <input type="text" name="" id="num1" placeholder="num1">
+        <br>
+        <input type="text" name="" id="num2" placeholder="num2">
+        <br>
+        <input type="text" name="" id="res" placeholder="resultado">
+        <br>
+        <button onclick="sumar()">Sumar</button>
+        <button onclick="restar()">Restar</button>
+        <button onclick="multiplicar()">Multiplicar</button>
+        <button onclick="dividir()">Dividir</button>
+        <button onclick="limpiar()">Limpiar</button>
+    </div>
+    <script src="./calculadora.js"></script>
+</body>
+</html>
