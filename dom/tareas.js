@@ -36,7 +36,7 @@ function getButton(e){
         const alertaActual = e.target.parentElement.parentElement;
         switch(action){
             case 'red':
-                alertActual.classList = [];
+                alertaActual.classList = [];
                 alertaActual.classList.add('alert', 'alert-danger');
                 break;
             case 'yellow':
